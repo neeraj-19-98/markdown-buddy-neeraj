@@ -1,0 +1,40 @@
+---
+title: "R Data Analysis Documentation"
+author: "Neeraj"
+output: html_document
+---
+
+AI Assistance Declaration: I used ChatGPT for documentation ideas, Markdown formatting, and wording suggestions. Prompts used: "Suggest Markdown formatting and code block examples for my R script description." "Add syntax highlighting and improve section organization." "Check the Markdown for correctness and readability." I verified the output by reviewing the code and checking the Markdown structure. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+
+The purpose of this R script is to create and display a simple synthetic dataset. The script also calculates the average value from the dataset.
+
+## Inputs
+
+The script uses a small synthetic dataset containing three categories and their corresponding values.
+
+## Outputs
+
+The script displays the dataset and calculates the average value.
+
+## R Code
+
+```{r}
+# Create a simple synthetic dataset
+data <- data.frame(
+  Category = c("A", "B", "C"),
+  Value = c(10, 20, 15)
+)
+
+# Display the dataset
+print(data)
+
+# Calculate the average value
+average_value <- mean(data$Value)
+
+# Display the average value
+print(average_value)
+## Summary
+
+This R script demonstrates a simple data analysis workflow. It creates a dataset, displays the data, and calculates an average value. The documentation explains the purpose, inputs, outputs, and main R code used in the analysis.
