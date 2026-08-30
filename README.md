@@ -39,7 +39,7 @@ print(data)
 - `analysis.Rmd` – R Markdown documentation
 - `Reflection.md` – Reflection questions and answers
 - `AI_Assistance.md` – AI prompts and verification details
-- ## AI Assistance Disclosure
+ ## AI Assistance Disclosure
 
 I used ChatGPT to help with documentation ideas, Markdown formatting, and wording suggestions. I reviewed the generated content, made edits, and checked the Markdown formatting before finalizing the document.
 
