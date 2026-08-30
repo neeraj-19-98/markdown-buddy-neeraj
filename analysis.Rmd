@@ -35,6 +35,7 @@ average_value <- mean(data$Value)
 
 # Display the average value
 print(average_value)
+```
 ## Summary
 
 This R script demonstrates a simple data analysis workflow. It creates a dataset, displays the data, and calculates an average value. The documentation explains the purpose, inputs, outputs, and main R code used in the analysis.
